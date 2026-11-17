@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "twincheck"
+version = "0.1.0"
+description = "Check a translated copy of a web page against its source: leftover text, missing sections, price, buy button."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Micole Kurt T. Gonda" }]
+keywords = ["localization", "translation", "qa", "ecommerce", "shopify", "landing-page"]
+
+[project.urls]
+Repository = "https://github.com/MicoleKurt/twincheck"
+
+[project.scripts]
+twincheck = "twincheck.cli:main"
+
+[tool.setuptools]
+packages = ["twincheck"]
+
+[tool.setuptools.package-data]
+twincheck = ["examples/*.html"]
