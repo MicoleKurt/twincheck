@@ -87,7 +87,7 @@ Languages: `de`, `en`, `es`, `fi`, `fr`, `it`, `nl`, `sv`.
 python -m unittest discover -s tests
 ```
 
-15 tests, standard library only. Python 3.9 or later.
+15 tests, standard library only. Python 3.11 or later.
 
 ## Why I made it
 

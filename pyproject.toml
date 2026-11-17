@@ -7,7 +7,7 @@ name = "twincheck"
 version = "0.1.0"
 description = "Check a translated copy of a web page against its source: leftover text, missing sections, price, buy button."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [{ name = "Micole Kurt T. Gonda" }]
 keywords = ["localization", "translation", "qa", "ecommerce", "shopify", "landing-page"]
